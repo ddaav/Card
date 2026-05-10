@@ -5,7 +5,7 @@ import '../models/employee.dart';
 class EmployeeScreen extends StatelessWidget {
   const EmployeeScreen({super.key});
 
-  // Define a palette of colors to cycle through
+  
   final List<Color> cardColors = const [
     Colors.lightBlueAccent,
     Colors.greenAccent,
@@ -16,34 +16,12 @@ class EmployeeScreen extends StatelessWidget {
     Colors.amberAccent,
     Colors.cyanAccent,
   ];
-  // Map each department to a specific color
-  // Color _getDepartmentColor(String department) {
-  //   switch (department.toLowerCase()) {
-  //     case 'it':
-  //       return Colors.blue.shade200;
-  //     case 'hr':
-  //       return Colors.pink.shade200;
-  //     case 'finance':
-  //       return Colors.green.shade200;
-  //     case 'marketing':
-  //       return Colors.orange.shade200;
-  //     case 'operations':
-  //       return Colors.purple.shade200;
-  //     case 'sales':
-  //       return Colors.teal.shade200;
-  //     case 'support':
-  //       return Colors.red.shade200;
-  //     case 'design':
-  //       return Colors.amber.shade200;
-  //     default:
-  //       return Colors.grey.shade300; // fallback color
-  //   }
-  // }
+  
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.grey.shade200, // static background
+      backgroundColor: Colors.grey.shade200, 
       appBar: AppBar(title: const Text('Employees')),
       body: ListView.separated(
         itemCount: employees.length,
