@@ -29,10 +29,9 @@ class EmployeeScreen extends StatelessWidget {
         itemBuilder: (context, index) {
           final Employee emp = employees[index];
           final Color cardColor =
-              cardColors[index % cardColors.length]; // cycle colors
-
+              cardColors[index % cardColors.length]; 
           return Card(
-            color: cardColor.withOpacity(0.7), // softer background
+            color: cardColor.withOpacity(0.7), 
             margin: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
             elevation: 5,
             child: Padding(
