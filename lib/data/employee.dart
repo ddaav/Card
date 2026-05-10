@@ -155,10 +155,10 @@ final List<Employee> employees = [
   ),
   Employee(
     id: 20,
-    fullname: "Laxmi KC",
+    fullname: "Sonu Thapa",
     gender: "Female",
     department: "Sales",
-    username: "lkc",
-    password: "laxmi20",
+    username: "ThapaSonu",
+    password: "sonu20",
   ),
 ];
