@@ -18,7 +18,7 @@ class GridViewScreen extends StatelessWidget {
     ];
 
     return Scaffold(
-      backgroundColor: Colors.grey.shade100,
+      backgroundColor: Colors.white,
       appBar: AppBar(title: const Text('GridView')),
       body: GridView.builder(
         padding: const EdgeInsets.all(12),
@@ -36,7 +36,7 @@ class GridViewScreen extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 items[index]["icon"] != null
-                    ? Icon(items[index]["icon"], size: 48, color: Colors.blue)
+                    ? Icon(items[index]["icon"], size: 48, color: Colors.red)
                     : const FlutterLogo(size: 48),
                 const SizedBox(height: 8),
                 Text(items[index]["name"]),
