@@ -7,13 +7,13 @@ class EmployeeScreen extends StatelessWidget {
 
   
   final List<Color> cardColors = const [
-    Colors.lightBlueAccent,
-    Colors.greenAccent,
-    Colors.orangeAccent,
-    Colors.purpleAccent,
-    Colors.tealAccent,
+    Colors.lightGreen,
+    Colors.redAccent,
+    Colors.blueGrey,
     Colors.pinkAccent,
-    Colors.amberAccent,
+    Colors.brown,
+    Colors.lightBlue,
+    Colors.yellowAccent,
     Colors.cyanAccent,
   ];
   
