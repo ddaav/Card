@@ -14,7 +14,7 @@ class GridViewScreen extends StatelessWidget {
       {"name": "Phone", "icon": Icons.phone},
       {"name": "Email", "icon": Icons.email},
       {"name": "Camera", "icon": Icons.camera_alt},
-      {"name": "Flutter", "icon": null}, // will use FlutterLogo
+      {"name": "Flutter", "icon": null}, 
     ];
 
     return Scaffold(
@@ -23,7 +23,7 @@ class GridViewScreen extends StatelessWidget {
       body: GridView.builder(
         padding: const EdgeInsets.all(12),
         gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-          crossAxisCount: 3, // 3x3 matrix
+          crossAxisCount: 3, 
           crossAxisSpacing: 12,
           mainAxisSpacing: 12,
         ),
